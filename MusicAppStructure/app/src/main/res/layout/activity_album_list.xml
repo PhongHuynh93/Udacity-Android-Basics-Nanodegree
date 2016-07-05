@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AlbumListActivity">
+
+    <TextView
+        android:id="@+id/albumsDesc"
+        style="@style/CategoryStyle"
+        android:background="#FFFFFF"
+        android:text="This screen lists all the albums user has"
+        android:textColor="#212121"/>
+
+    <TextView
+        android:id="@+id/album1"
+        style="@style/CategoryStyle"
+        android:background="#FFFFFF"
+        android:text="The best of The Beach Boys"
+        android:textColor="#212121"/>
+
+</LinearLayout>

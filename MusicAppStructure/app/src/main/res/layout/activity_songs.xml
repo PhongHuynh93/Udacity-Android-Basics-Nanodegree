@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SongsActivity">
+    <TextView
+        android:id="@+id/songsDesc"
+        style="@style/CategoryStyle"
+        android:background="#FFFFFF"
+        android:text="This screen lists all the songs from selected album/artist on device"
+        android:textColor="#212121"/>
+
+    <TextView
+        android:id="@+id/song1"
+        style="@style/CategoryStyle"
+        android:background="#FFFFFF"
+        android:text="California Girls"
+        android:textColor="#212121"/>
+</LinearLayout>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.quizzzer.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/welcome_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome the Quizzer App, this quiz topic is the State of Israel. Lets begin!"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <RadioGroup
+                android:id="@+id/q1radio_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q1"
+                    style="@style/question_style"
+                    android:text="Q1: When was the modern State of Israel established?" />
+
+                <RadioButton
+                    android:id="@+id/q1a1_radio_button"
+                    style="@style/answer_style"
+                    android:text="1946" />
+
+                <RadioButton
+                    android:id="@+id/q1a2_radio_button"
+                    style="@style/answer_style"
+                    android:text="1947" />
+
+                <RadioButton
+                    android:id="@+id/q1a3_radio_button_correct"
+                    style="@style/answer_style"
+                    android:text="1948" />
+
+                <RadioButton
+                    android:id="@+id/q1a4_radio_button"
+                    style="@style/answer_style"
+                    android:text="1949" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:id="@+id/q2layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q2"
+                    style="@style/question_style"
+                    android:text="Q2: What are the official languages of the State of Israel?" />
+
+                <CheckBox
+                    android:id="@+id/q2a1"
+                    style="@style/answer_style"
+                    android:text="English"
+                    android:textSize="16sp" />
+
+                <CheckBox
+                    android:id="@+id/q2a2_correct1"
+                    style="@style/answer_style"
+                    android:text="Hebrew"
+                    android:textSize="16sp" />
+
+                <CheckBox
+                    android:id="@+id/q2a3"
+                    style="@style/answer_style"
+                    android:text="Spanish"
+                    android:textSize="16sp" />
+
+                <CheckBox
+                    android:id="@+id/q2a4_correct2"
+                    style="@style/answer_style"
+                    android:text="Arabic"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/q3layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q3"
+                    style="@style/question_style"
+                    android:text="Q3: What is the name of the war that began on June 5th 1967 and lasted less than a week?" />
+                <LinearLayout
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:layout_width="0px"
+                    android:layout_height="0px"/>
+                <EditText
+                    android:id="@+id/q3a"
+                    style="@style/answer_style"
+                    android:hint="Enter your answer here." />
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/q4radio_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q4"
+                    style="@style/question_style"
+                    android:text="Q4: What is the acronym for Israels military?" />
+
+                <RadioButton
+                    android:id="@+id/q4a1_radio_button"
+                    style="@style/answer_style"
+                    android:text="IAF" />
+
+                <RadioButton
+                    android:id="@+id/q4a2_radio_button"
+                    style="@style/answer_style"
+                    android:text="IMF" />
+
+                <RadioButton
+                    android:id="@+id/q4a3_radio_button_correct"
+                    style="@style/answer_style"
+                    android:text="IDF" />
+
+                <RadioButton
+                    android:id="@+id/q4a4_radio_button"
+                    style="@style/answer_style"
+                    android:text="ICF" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:id="@+id/q5layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q5"
+                    style="@style/question_style"
+                    android:text="Q5: What major computer chip manufacturer developed major advances in its Israel research facility that helped it leap ahead of its competition?" />
+
+                <EditText
+                    android:id="@+id/q5a"
+                    style="@style/answer_style"
+                    android:hint="Enter your answer here." />
+            </LinearLayout>
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Submit"
+                android:onClick="gradeQuiz"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

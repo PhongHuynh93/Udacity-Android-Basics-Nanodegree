@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ArtistListActivity">
+
+    <TextView
+        android:id="@+id/artistsDesc"
+        style="@style/CategoryStyle"
+        android:background="#FFFFFF"
+        android:text="This screen lists all the artists on device"
+        android:textColor="#212121"/>
+
+    <TextView
+        android:id="@+id/artist1"
+        style="@style/CategoryStyle"
+        android:background="#FFFFFF"
+        android:text="The Beach Boys"
+        android:textColor="#212121"/>
+
+</LinearLayout>

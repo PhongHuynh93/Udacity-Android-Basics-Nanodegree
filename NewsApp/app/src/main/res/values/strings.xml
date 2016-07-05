@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="hint_search">Enter a search term</string>
+    <string name="button_search">Search</string>
+    <string name="no_data">No Data</string>
+    <string name="date">Date</string>
+    <string name="section">Section</string>
+</resources>

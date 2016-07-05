@@ -1,0 +1,32 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Tour Guide - Israel</string>
+    <!-- Category name for Historic Sites [CHAR LIMIT=20] -->
+    <string name="category_historic_sites">Historic</string>
+
+    <!-- Category name for parks [CHAR LIMIT=20] -->
+    <string name="category_parks">Parks</string>
+
+    <!-- Category name for food [CHAR LIMIT=20] -->
+    <string name="category_food">Food</string>
+
+    <!-- Category name for beaches [CHAR LIMIT=20] -->
+    <string name="category_beaches">Beaches</string>
+    
+    <string name="name_western_wall">The Western(Wailing) Wall</string>
+
+    <string name="location_western_wall">1 Western Wall\nJerusalem, Israel</string>
+
+    <string name="name_yarkon_park">Yarkon Park</string>
+
+    <string name="location_yarkon_park">1 Yarkon Park\nTel Aviv-Yafo, Israel</string>
+
+    <string name="name_beit_yannai_beach">Beit Yannai Beach</string>
+
+    <string name="location_beit_yannai_beach">1 Beit Yannai Beach\nBeit Yannai, Israel</string>
+
+    <string name="name_messa">Messa</string>
+
+    <string name="location_messa">HaArba\'a St 19\nTel Aviv-Yafo, Israel</string>
+
+</resources>
